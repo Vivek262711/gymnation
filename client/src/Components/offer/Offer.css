@@ -1,0 +1,43 @@
+.body-join-text {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 40px;
+  padding: 10px;
+  background-color: c;
+}
+.gallery-text:hover {
+  color: tomato;
+}
+.gallery-text {
+  background-color: rgba(207, 207, 207, 0.252);
+  margin-top: 30px;
+  border-radius: 20px;
+  height: 200px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* color: antiquewhite; */
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  cursor: pointer;
+}
+.offer-icon {
+  margin-left: 10px;
+  color: rgb(87, 198, 77);
+  font-size: 60px;
+}
+@media screen and (max-width: 520px) {
+  .gallery-text {
+    font-size: 25px;
+  }
+  
+}
+
+@media screen and (max-width: 420px) {
+  .gallery-text {
+    font-size: 20px;
+  }
+
+}

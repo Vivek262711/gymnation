@@ -1,0 +1,25 @@
+.badge {
+  display: flex;
+  background-color: rgba(210, 194, 192, 0.547);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 5px 10px;
+  margin: 5px 0px;
+  border-radius: 20px;
+}
+.badge-icon {
+  color: gold;
+  margin-right: 10px;
+}
+.badge-name {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.no-membership {
+  cursor: pointer;
+  background-color: rgba(210, 194, 192, 0.547);
+  padding: 5px 10px;
+  color: green;
+  border-radius: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}

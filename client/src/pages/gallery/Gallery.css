@@ -1,0 +1,28 @@
+.gallery-title {
+  margin-top: 20px;
+  text-align: center;
+  font-family: "Lora", serif;
+  font-size: 40px;
+}
+.gallery-images {
+  flex-wrap: wrap;
+  text-align: center;
+}
+.gallery-image {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 400px;
+  height: auto;
+  margin: 10px;
+}
+@media screen and (max-width: 430px) {
+  .gallery-image {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .gallery-image {
+    width: 250px;
+  }
+}

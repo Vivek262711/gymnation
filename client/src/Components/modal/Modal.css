@@ -1,0 +1,58 @@
+.modal {
+  background-color: rgba(0, 0, 0, 0.614);
+  z-index: 999;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  align-items: center;
+}
+.modal-wrapper {
+  margin: auto;
+  margin-top: 5%;
+  border-radius: 20px;
+  padding: 20px;
+  width: 40vw;
+}
+.modal-input:focus {
+  border-bottom: 2px solid tomato;
+}
+.modal-input {
+  outline: none;
+  background-color: none;
+  border-radius: 20px;
+  padding: 5px;
+  text-align: center;
+}
+.profile-submit {
+  cursor: pointer;
+  margin-top: 10px;
+  background-color: tomato;
+}
+.profile-submit:hover {
+  background-color: black;
+}
+.change-password {
+  color: aliceblue;
+  border: none;;
+  background-color: rgb(45, 38, 254);
+  border-radius: 10px;
+  padding: 8px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+}
+.update-top{
+    position: relative;
+text-align: center;
+}
+.close-button{
+    color: tomato;
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}

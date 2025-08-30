@@ -1,0 +1,137 @@
+.membership {
+  display: flex;
+  align-items: center;
+  /* height: 100vh; */
+  flex-direction: column;
+  justify-content: space-around;
+}
+.trainer-join-text {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 40px;
+  padding: 10px;
+  width: 100%;
+  background-color: antiquewhite;
+}
+.membership-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: rgba(226, 226, 226, 0.285);
+  padding: 25px;
+  width: 80%;
+  border-radius: 20px;
+}
+.mem-card {
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #89551d);
+  border-radius: 20px;
+  text-align: center;
+  /* width: 26%; */
+  color: bisque;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 11px;
+  text-align: center;
+}
+.mem-title {
+  font-family: "Raleway", cursive;
+  font-weight: 800;
+  font-size: 30px;
+}
+.mem-card-ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.mem-card-li {
+  color: aliceblue;
+  font-size: 17px;
+  list-style: none;
+  line-height: 25px;
+}
+.mem-card-button:hover {
+  background-color: rgba(117, 249, 91, 0.589);
+}
+.mem-card-button {
+  cursor: pointer;
+  margin-top: 20px;
+  background-color: rgba(172, 172, 172, 0.458);
+  border: none;
+  color: bisque;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.mem-body-pic {
+  border-radius: 20px;
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+.mem-body-pic-m {
+  border-radius: 20px;
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+.mem-card-purchased {
+  background: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #22891d75);
+  border-radius: 20px;
+  color: aliceblue;
+}
+.mem-card-purchased > p {
+  padding: 20px;
+  background-color: #22891d75;
+  border-radius: 20px;
+}
+hr {
+  margin-top: 20px;
+}
+.mem-card-glow:hover {
+  cursor: pointer;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.mem-card-unpurchased {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container {
+  position: relative;
+}
+.overlay {
+  opacity: 0;
+  position: absolute;
+  bottom: 0;
+  /* background: rgb(0, 0, 0); */
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  height: inherit;
+  width:100%;
+  transition: 0.5s ease;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container:hover .overlay {
+  opacity: 1;
+}
+.price{
+  font-size: 50px;
+  color: tomato;
+}
+@media screen and (max-width:860px){
+  .membership-wrapper {
+    flex-direction: column;
+    gap: 30px;
+  }
+}

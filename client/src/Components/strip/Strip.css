@@ -1,0 +1,30 @@
+.strip {
+  background-color: tomato;
+  color: aliceblue;
+  height: 25px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.strip-contact {
+  flex: 2;
+  text-align: center;
+}
+.strip-timing {
+  flex: 2;
+  text-align: center;
+}
+.strip-logo {
+  margin-left: 2px 0px;
+  font-size: 13px;
+}
+@media screen and (max-width: 818px) {
+  .strip-timing {
+    display: none;
+  }
+}
+@media screen and (max-width: 1160px) {
+  .strip {
+    font-size: 12px;
+  }
+}

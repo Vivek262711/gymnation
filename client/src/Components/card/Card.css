@@ -1,0 +1,101 @@
+.card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  height: 250px;
+  width: 400px;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+.card:hover {
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.card-text {
+  color: aliceblue;
+  font-family: inherit;
+}
+.card-heading {
+  background-color: rgba(28, 28, 28, 0.838);
+  font-weight: bolder;
+  font-size: 20px;
+  padding: 13px;
+}
+.card-subheading {
+  background-color: rgba(28, 28, 28, 0.363);
+  color: aliceblue;
+  padding: 8px;
+}
+.card-price {
+  background-color: rgba(28, 28, 28, 0.363);
+  color: aliceblue;
+}
+.price {
+  color: tomato;
+  font-size: 30px;
+  font-weight: bolder;
+  margin-left: 5px;
+}
+.card-dance {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.52),
+      #89551d
+    ),
+    url("dance.jpg");
+}
+.card-dance-m {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.52),
+      #22891d
+    ),
+    url("dance.jpg");
+}
+.card-yoga {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.52),
+      #89551d
+    ),
+    url("yoga.jpg");
+}
+.card-yoga-m {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.52),
+      #22891d
+    ),
+    url("yoga.jpg");
+}
+.card-body {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.52),
+      #89551d
+    ),
+    url("body.jpg");
+}
+.card-body-m {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.52),
+      #22891d
+    ),
+    url("body.jpg");
+}
+@media screen and (max-width: 620px) {
+  .card {
+    width: 200px;
+  }
+  .card-heading {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .card{
+    width: 80%;
+  }
+}

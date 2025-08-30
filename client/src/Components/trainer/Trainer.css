@@ -1,0 +1,23 @@
+.trainer-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.trainer-join-text {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 40px;
+  padding: 10px;
+  background-color: antiquewhite;
+}
+.discount {
+  font-size: 60px;
+  color: tomato;
+}
+@media screen and (max-width: 730px) {
+  .trainer-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

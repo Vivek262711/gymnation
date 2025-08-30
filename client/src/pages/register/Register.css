@@ -1,0 +1,88 @@
+.register {
+  display: flex;
+  height: calc(100vh - 50px);
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("./register_back.jpg");
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+.register-title {
+  font-size: 50px;
+}
+.register-wrapper {
+  background-color: antiquewhite;
+  padding: 25px 25px;
+  border-radius: 20px;
+  width: 60%;
+}
+.register-wrapper > span {
+  text-align: center;
+}
+.register-form {
+  display: flex;
+  flex-direction: column;
+}
+.register-form > label {
+  margin: 5px 0;
+}
+.register-form > input:focus {
+  outline: none;
+  border-bottom: 3px solid rgb(74, 71, 255);
+}
+.register-form > input:hover {
+  outline: none;
+  border-bottom: 2px solid tomato;
+}
+.register-form > input {
+  padding: 10px;
+  border: none;
+}
+.register-button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+}
+.loader-above {
+  display: none;
+}
+.login-button-register {
+  margin-top: 5px;
+  cursor: pointer;
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+}
+.have-account {
+  font-size: 14px;
+}
+.half-page-l-r {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.half-page-r-r {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 900px) {
+  .loader-above{
+    display: block;
+  }
+  .half-page-r-r {
+    display: none !important;
+  }
+}
